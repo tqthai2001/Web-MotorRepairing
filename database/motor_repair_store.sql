@@ -70,7 +70,7 @@ CREATE TABLE `customers` (
     `active` BOOLEAN DEFAULT TRUE
 ) COLLATE=utf8_vietnamese_ci    /* utf8 character set Vietnamese */;
 
-DROP TABLE IF EXISTS `employees_roles`;
+DROP TABLE IF EXISTS `categories`;
 CREATE TABLE `categories` (
 	`id` INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     `code` VARCHAR(20) NOT NULL UNIQUE, -- "DMxxx"
