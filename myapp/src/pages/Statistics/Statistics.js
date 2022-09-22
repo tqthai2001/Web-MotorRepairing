@@ -165,6 +165,7 @@ const Statistics = () => {
                   {choices.map((choice, idx) => {
                     return (
                       <MenuItem
+                        key={idx}
                         value={choice.value}
                         onClick={(e) => handleClickChoice(e, idx)}
                       >
